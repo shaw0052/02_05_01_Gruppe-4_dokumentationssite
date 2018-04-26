@@ -1,0 +1,121 @@
+img {
+    width: 100%;
+}
+
+/*-------- menu --------*/
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(17, 17, 17, 0.9);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #f2a71b;
+}
+
+@media screen and (max-width:1030px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*-- skrifttype,str. osv. --*/
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: 20px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    line-height: 20px;
+}
+
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    line-height: 20px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 20px;
+}
+
+/*-------- forside -----------*/
+
+#forside {
+    padding-left: 2vw;
+    padding-right: 6vw;
+    padding-bottom: 8vw;
+    max-width: 800px;
+    padding: 0 30px 1px;
+
+}
+
+
+#forside .medlemmer {
+    border-radius: 30px;
+    max-width: 200px;
+    padding: 0 20px 1px;
+    background-color: #f2a71b;
+    padding-top: 0.1px;
+    color: white
+}
+
+#moodboard {
+    padding-left: 2vw;
+    padding-right: 6vw;
+    padding-bottom: 8vw;
+    max-width: 800px;
+    padding: 0 30px 1px;
+    color: orange;
+}
+
+#persona {
+    padding-left: 2vw;
+    padding-right: 6vw;
+    padding-bottom: 8vw;
+    max-width: 800px;
+    padding: 0 30px 1px;
+}
+
+#storyboard {
+    padding-left: 2vw;
+    padding-right: 6vw;
+    padding-bottom: 8vw;
+    max-width: 800px;
+    padding: 0 30px 1px;
+    color: orange;
+}
